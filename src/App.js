@@ -31,6 +31,7 @@ handleCountryChange = async (country) => {
         const { data, country } = this.state;
         return(
             <div className={styles.container}>
+                <h1 className = {styles.mainHead}>Corona Tracker</h1>
                 <Cards data={data}></Cards>
                 <CountryPicker handleCountryChange = {this.handleCountryChange}></CountryPicker>
                 <Chart data={data} country = {country}></Chart>

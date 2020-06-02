@@ -8,3 +8,20 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
+.mainHead
+{
+    text-align: center;
+    font-weight: 500;
+    margin: 3rem 0;
+}
+
+@media(max-widht: 770px)
+{
+    .container
+    {
+        margin: 0 10%;
+    }
+
+    
+}
